@@ -14,7 +14,7 @@ function App() {
     }
 
     try {
-      const response = await api.get(`${input}/json`);
+      const response = await api.get(`${input}/json`);//está pegando a api no arquivo api.js e terminando sua url para poder ser executada
       setCep(response.data);
       setInput("");
     } catch {
