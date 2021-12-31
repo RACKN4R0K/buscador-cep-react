@@ -9,7 +9,7 @@ function App() {
 
   async function handleSearch() {
     if (input === "") {
-      alert("Preencha algum CEP");
+      alert("Preencha com algum CEP");
       return;
     }
 
@@ -34,7 +34,7 @@ function App() {
           onChange={(e) => setInput(e.target.value)}
         ></input>
 
-        <button className="buttonSearch" onClick={handleSearch} type="submit">
+        <button className="buttonSearch" onClick={handleSearch}>
           <FiSearch size={20} color="#FFF"></FiSearch>
         </button>
       </div>
