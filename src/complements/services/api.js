@@ -1,6 +1,6 @@
 import axios from "axios";
 
-//07242380/json
+//01122333/json
 
 const api = axios.create({
     baseURL: "https://viacep.com.br/ws/"
