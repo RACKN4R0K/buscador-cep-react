@@ -1,7 +1,7 @@
 import { FiSearch } from "react-icons/fi";
 import "./style.css";
 import { useState } from "react";
-import api from "./services/api.js";
+import api from "./complements/services/api.js";
 
 function App() {
   const [input, setInput] = useState("");
